@@ -1,11 +1,4 @@
-# SQLAlchemy Homework - Surfs Up!
-
-
-![surfs-up.png](Images/surfs-up.png)
-
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
-
-## Step 1 - Climate Analysis and Exploration
+## Climate Analysis and Exploration
 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
@@ -107,15 +100,11 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
 - - -
 
-## Bonus: Other Recommended Analyses
-
-* The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
-
 ### Temperature Analysis I
 
 * Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
 
-* You may either use SQLAlchemy or pandas's `read_csv()` to perform this portion.
+* You may either use pandas's `read_csv()` to perform this portion.
 
 * Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
 
